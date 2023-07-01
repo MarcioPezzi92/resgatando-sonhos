@@ -1,1 +1,33 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import 'assets/themes/default.theme.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+ul {
+  list-style: none;
+}
+
+app-root {
+  display: block;
+  margin: 0 auto;
+  max-width: 1280px;
+  height: 100vh;
+  background: rgb(242, 244, 244);
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+button {
+  border: none;
+}
